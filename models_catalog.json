@@ -235,13 +235,14 @@
     ],
     "url": "https://hf-mirror.com/RunDiffusion/Juggernaut-XL-v8/resolve/main/juggernautXL_v8Rundiffusion.safetensors",
     "homepage": "https://hf-mirror.com/RunDiffusion/Juggernaut-XL-v8",
+    "filename": "juggernautXL_v8Rundiffusion.safetensors",
     "hash": "aeb7e9e6897a1e58b10494bd989d001e3d4bc9b634633cd7b559838f612c2867",
     "types": [
       "checkpoints"
     ],
     "file_size": 7105348592
   },
-  "JuggernautXL_v9RunDiffusionPhoto2": {
+  "Juggernaut-XL_v9_RunDiffusionPhoto_v2": {
     "regexes": [
       {
         "input_value": "^(?=.*(?i:juggernaut))(?=.*(?i:XL))(?=.*(?i:v9))(?=.*(?i:Rundiffusion)).*",
@@ -250,6 +251,7 @@
     ],
     "url": "https://hf-mirror.com/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
     "homepage": "https://hf-mirror.com/RunDiffusion/Juggernaut-XL-v9",
+    "filename": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
     "hash": "c9e3e68f89b8e38689e1097d4be4573cf308de4e3fd044c64ca697bdb4aa8bca",
     "types": [
       "checkpoints"
@@ -1590,5 +1592,86 @@
     "types": [
       "InfiniteYou"
     ]
+  },
+
+
+
+
+
+
+
+  "more_details": {
+    "regexes": [
+      {
+        "input_value": "(?i)(?:[^\\/\\\\]*[\\/\\\\]?)?more_details\\.safetensors$",
+        "input_name": "(?i)lora"
+      }
+    ],
+    "url": "https://hf-mirror.com/scenario-labs/more_details/resolve/main/more_details.safetensors",
+    "homepage": "https://hf-mirror.com/scenario-labs/more_details",
+    "hash": "d9cf2f88dec53a8dd8c09aba2b1d67963b265ebdf8255660f5bcd7f1c8edba33",
+    "filename": "more_details.safetensors",
+    "file_size": 10013900,
+    "types": [
+      "loras"
+    ],
+    "create_by": "DragonAI.vip"
+  },
+
+
+
+
+
+
+
+  "controlnet-union-sdxl-1.0-promax": {
+    "regexes": [
+      {
+        "input_value": "(?i)(?:[^\\/\\\\]*[\\/\\\\]?)?controlnet-union-sdxl\\.safetensors$"
+      }
+    ],
+    "url": "https://hf-mirror.com/brad-twinkl/controlnet-union-sdxl-1.0-promax/resolve/main/diffusion_pytorch_model.safetensors",
+    "homepage": "https://hf-mirror.com/brad-twinkl/controlnet-union-sdxl-1.0-promax",
+    "filename": "controlnet-union-sdxl-1.0-promax.safetensors",
+    "hash": "f85518431d7367de30b9558a939c003462a7e331e8c8b929146916dc27e471d6",
+    "file_size": 338413026,
+    "types": [
+      "controlnet"
+    ],
+    "create_by": "DragonAI.vip"
+  },
+  "sai_xl_depth_256lora": {
+    "homepage": "https://hf-mirror.com/lllyasviel/sd_control_collection",
+    "url": "https://hf-mirror.com/lllyasviel/sd_control_collection/resolve/main/sai_xl_depth_256lora.safetensors",
+    "filename": "sai_xl_depth_256lora.safetensors",
+    "hash": "838494a80a1d437e0d2d938baf457f1586c916a4724c87614508e0739b1770aa",
+    "file_size": 811597824,
+    "types": [
+      "controlnet"
+    ],
+    "regexes": [
+      {
+        "input_value": "(?i)(?:[^\\/\\\\]*[\\/\\\\]?)?sai_xl_depth_256lora\\.safetensors$"
+      }
+    ],
+    "create_by": "DragonAI.vip"
+  },
+  "sai_xl_canny_256lora": {
+    "homepage": "https://hf-mirror.com/lllyasviel/sd_control_collection",
+    "url": "https://hf-mirror.com/lllyasviel/sd_control_collection/resolve/main/sai_xl_canny_256lora.safetensors",
+    "filename": "sai_xl_canny_256lora.safetensors",
+    "hash": "c9269721b1f7043625e75b7de2f65a6116b2ad99895965494616f3f2c8548f54",
+    "file_size": 811597824,
+    "types": [
+      "controlnet"
+    ],
+    "regexes": [
+      {
+        "input_value": "(?i)(?:[^\\/\\\\]*[\\/\\\\]?)?sai_xl_canny_256lora\\.safetensors$"
+      }
+    ],
+    "create_by": "DragonAI.vip"
   }
+
+
 }
